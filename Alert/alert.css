@@ -1,0 +1,30 @@
+
+@import url("/styles/utility.css");
+
+
+
+.alert{
+    padding: .7rem 1.2rem;
+    border-radius: .5rem;
+    width: max-content;
+}
+
+.al-success{
+    background-color: var(--success);
+}
+
+.al-error{
+    background-color: var(--error);
+}
+
+.al-warning{
+    background-color: var(--warning);
+}
+
+.al-info{
+    background-color: var(--info);
+}
+
+.container {
+    margin: 2rem;
+}

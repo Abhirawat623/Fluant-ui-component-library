@@ -1,0 +1,94 @@
+@import url("/styles/reset.css");
+@import url("/styles/utility.css");
+
+
+.btn-container {
+    margin: 2rem;
+}
+
+
+.button {
+    font-size: 1.2rem;
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: .25rem;
+    background: transparent;
+}
+
+.cursor:hover {
+    cursor: pointer;
+    opacity: .65;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+.btn-secondary {
+    background: var(--secondary-color);
+    color: var(--textprimary);
+    font-weight: 700;
+}
+
+
+.btn-success {
+    background: var(--success);
+    color: var(--textprimary);
+    font-weight: 700;
+}
+
+.btn-error {
+    background: var(--error);
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+.btn-warning {
+    background: var(--warning);
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+
+.btn-outline-primary {
+    color: var(--primary-col);
+    border: 1px solid var(--primary-col);
+    font-weight: 700;
+}
+
+.btn-outline-secondary {
+    color: var(--secondary-col);
+    border: 1px solid var(--secondary-col);
+    font-weight: 700;
+}
+
+.btn-outline-success {
+    color: var(--primary-col);
+    border: 1px solid var(--primary-col);
+    font-weight: 700;
+}
+
+.btn-outline-error {
+    color: var(--error);
+    border: 2px solid var(--error);
+    font-weight: 700;
+}
+
+.btn-outline-warning {
+    color: var(--warning);
+    border: 2px solid var(--warning);
+    font-weight: 700;
+}
+
+.btn-disable {
+    background: var(--btn-disable-color);
+}
+
+
+
+.disable[disabled]:hover{
+    opacity: .8;
+}
+

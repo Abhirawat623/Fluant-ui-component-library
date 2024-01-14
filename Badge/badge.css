@@ -1,0 +1,49 @@
+@import url("/styles/reset.css");
+@import url("/styles/utility.css");
+@import url("/Avatar/avatar.css");
+
+
+.avatar-badge {
+    border-radius: 50%;
+    border: 1px solid var(--border-col);
+    position: absolute;
+
+}
+
+.online {
+    background-color: var(--green-badge-col);
+    width: 1rem;
+    height: 1rem;
+    right: .8rem;
+    bottom: 1rem;
+}
+
+.offline {
+    background-color: var(--red-badge-col);
+    width: 0.8rem;
+    height: 0.8rem;
+    right: 0.5rem;
+    bottom: 0.3rem;
+}
+
+.dnd {
+    background-color: var(--yellow-badge-col);
+    width: 0.6rem;
+    height: 0.6rem;
+    right: 0.4rem;
+    bottom: -0.1rem;
+}
+
+.icon-badge {
+    display: inline-block;
+}
+
+.badge-item {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: .875rem;
+    color: var(--text-primary);
+    top: -.6rem;
+    right: -.5rem;
+    background-color: var(--primary-col);
+}

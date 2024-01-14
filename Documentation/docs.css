@@ -1,0 +1,145 @@
+@import url("/styles/reset.css");
+@import url("/styles/utility.css");
+@import url("/Alert/alert.css");
+@import url("/Avatar/avatar.css");
+@import url("/Badge/badge.css");
+@import url("/Button/button.css");
+@import url("/Card/card.css");
+@import url("/Grid/grid.css");
+@import url("/Image/image.css");
+@import url("/Input/input.css");
+@import url("/List/list.css");
+@import url("/Modal/modal.css");
+@import url("/Navigation/nav.css");
+@import url("/Rating/rating.css");
+@import url("/TextUtilities/text.css");
+@import url("/Toast/toast.css");
+@import url("/main.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+
+.alert-details {
+    margin: .3rem 0;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.header {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--accent-color);
+    width: 100%;
+    background-color: var(--header-background);
+}
+
+
+.nav-link-padding {
+    padding: .5rem 6rem .5rem .5rem;
+}
+
+.side-nav {
+    position: sticky;
+    top: 0;
+    width: 17rem;
+    padding: 2rem;
+    height: 100vh;
+    overflow: auto;
+}
+
+.list-non-bullet{
+    list-style: none;  
+}
+
+.mt-2 {
+    margin-top: 1.8rem;
+}
+
+.list-item {
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+
+.pointer:hover {
+    background-color: var(--accent-col);
+    border-radius: 0 2rem 2rem 0;
+    cursor: pointer;
+}
+
+.main-container {
+    width: 80%;
+    padding: 1rem;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+
+.toast-container {
+    margin: 2rem;
+}
+
+.section {
+    padding: 2rem 6rem;
+}
+
+.about-section{
+    margin-bottom: 2rem;
+}
+
+.section-heading {
+    margin-bottom: 2rem;
+}
+
+
+.comp-details {
+    margin: .3rem 0;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+
+.bg-color {
+    background-color: var(--secondary-col);
+}
+
+.comp-container {
+    margin: 1.5rem 0;
+    width: 80%;
+}
+
+.snippet {
+    margin: 1rem 0;
+    max-width: 90rem;
+}
+
+iframe {
+    width: 100%;
+}
+
+.sub-heading {
+    padding: 1rem 0;
+}
+
+.go-up {
+bottom: 2px;
+    scale: 0.5;
+}
+
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.icon-round {
+    border-radius: 50%;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 750;
+    letter-spacing: 1.5px;
+    color: var(--text-col);
+    
+}
