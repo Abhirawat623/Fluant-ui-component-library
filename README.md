@@ -14,6 +14,10 @@ To use the components you can either import the style sheet in your css file or 
 - ```bash
   @import url("https://flauntui.netlify.app/main.css")
   ```
+
+## Live Link
+- https://flauntui.netlify.app/
+
 ## List of Components
 1. Alert
 
