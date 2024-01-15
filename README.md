@@ -8,9 +8,12 @@ Light Ui is a component library which allows you to develop your code beautiful,
 ## Installation
 To use the components you can either import the style sheet in your css file or copy and paste the link in your html file provided below
 
-- <link rel="stylesheet" href="https://flauntui.netlify.app/main.css">
-- @import url("https://flauntui.netlify.app/main.css")
-
+- ```bash
+  <link rel="stylesheet" href="https://flauntui.netlify.app/main.css">
+  ```
+- ```bash
+  @import url("https://flauntui.netlify.app/main.css")
+  ```
 ## List of Components
 1. Alert
 
