@@ -2,8 +2,7 @@
 # Flaunt UI Component Library
 
 ![logo-removebg-preview](https://github.com/Abhirawat623/Fluant-ui-component-library/assets/131130116/68ac2d5e-8817-493e-9d38-c0e9220a1f87)
-
-Light Ui is a component library that has clean building blocks that help you develop faster and efficient UI.
+Light Ui is a component library which allows you to develop your code beautiful, faster and UI efficient .
 
 ## Installation
 To use the components you can either import the style sheet in your css file or copy and paste the link in your html file provided below
