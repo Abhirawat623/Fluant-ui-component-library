@@ -42,7 +42,7 @@ To use the components you can either import the style sheet in your css file or 
 - HTML
 - CSS
 
-## A0uthor
+## Author
 - Abhishek Rawat
 ## Screenshot
 
